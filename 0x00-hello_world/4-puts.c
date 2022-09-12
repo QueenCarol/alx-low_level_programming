@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
-* main - Prints the string in the put function
+* main - prints the string in the put function
 *
 * Description: using the main function 
 * this program prints "Programming is like building a multilingual puzzle
-* Return: 0
+* Return: Always 0 (Success)
 */
 
 int main(void)
