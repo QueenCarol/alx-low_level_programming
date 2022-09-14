@@ -2,6 +2,7 @@
 
 /**
  * main - print _putchar
+ *
  * Return: always 0
  */
 
