@@ -1,9 +1,9 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * print_to_98 - function that prints all natural numbers from input to 98,
- * in order separated by a comma followed ba new line.
- * @n: num to begin counting at.
+ * 		 in order separated by a comma followed ba new line.
+ * @n: the number to begin counting at.
  */
 void print_to_98(int n)
 {
