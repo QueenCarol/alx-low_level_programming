@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	int num;
 	unsigned long t0 = 0, t1 = 1, s;
+	int i;
 
-	for (num = 1; num <= 98; num++)
+	for (i = 1; i <= 98; i++)
 	{
 		s = t0 + t1;
 
-		if (num != 98)
+		if (i != 98)
 		{
 			printf("%lu, ", s);
 		}
