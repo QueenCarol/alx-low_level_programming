@@ -30,7 +30,7 @@ int _strlen(char *s)
 {
 	int rev = 0;
 
-	while (*(s + len) != '\0')
+	while (*(s + rev) != '\0')
 		rev++;
 
 	return (rev);
