@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * puts_half - function that prints half of a string, followed by a new line
+ * puts_half - function that prints half of a string
  * @str: string
+ *
  * Return: nothing 
  */
 
@@ -19,6 +20,7 @@ void puts_half(char *str)
 /**
  * _strlen - returns the length of a string
  * @s: string
+ *
  * Return: the length of the given string
  */
 
