@@ -2,7 +2,7 @@
 
 /**
  * _strncat - function that concatenates two strings
- * @n: int used
+ * @n: integer parameter to compare index to
  * @src: string
  * @dest: destination of the string
  * Return: pointer to the resulting string dest
@@ -10,21 +10,13 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int les = 0, j = 0;
+	int i = 0, dest_les = 0;
 
-	while (dest[les])
-	{
-		les++;
-	}
+	while (dest[i++])
+		dest_les++;
 
-	while (j < n && src[j])
-	{
-		dest[les] = src[j];
-		less++;
-		j++;
-	}
-
-	dest[les + n + 1] '\0';
+	for (i = 0; src[i] && i < n; i++)
+		dest[dest_len++] = src[i];
 
 	return (dest);
 }
