@@ -1,4 +1,3 @@
-#include <stdio>
 #include "main.h"
 
 /**
@@ -17,9 +16,9 @@ char *_strcat(char *dest, char *src)
 		les++;
 	}
 
-	for (i = 0; scr[i] != 0; i++)
+	for (i = 0; src[i] != 0; i++)
 	{
-		dest[les] = scr[i];
+		dest[les] = src[i];
 		les++;
 	}
 
